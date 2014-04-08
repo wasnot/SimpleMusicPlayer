@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/songlist_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/player_list_pager_bg" >
+
+    <!--
+	<FrameLayout 
+  	    android:id="@+id/songlist_container"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content">
+      -->
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/fragmentPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <android.support.v4.view.PagerTabStrip
+            android:id="@+id/pagerTabStrip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/player_list_pager_bg"
+            android:clickable="true"
+            android:textColor="@color/player_list_pager_title_text"
+            android:textSize="16dp" ><!-- 
+            android:paddingTop="5dp"
+            android:paddingBottom="4dp"
+            android:gravity="bottom" -->
+        </android.support.v4.view.PagerTabStrip>
+    </android.support.v4.view.ViewPager>
+
+    <ImageView
+        android:id="@+id/shadowRight"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/silkhat_flip_shadow_height"
+        android:adjustViewBounds="true"
+        android:src="@drawable/pager_shadow_right" />
+
+    <ImageView
+        android:id="@+id/shadowLeft"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/silkhat_flip_shadow_height"
+        android:src="@drawable/pager_shadow_left" />
+	<!--  </FrameLayout> -->
+    <!--
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="fill_vertical" >
+	</LinearLayout>
+    -->
+    <!--
+	<FrameLayout
+	    android:id="@+id/songlist_container"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1" />
+    -->
+</FrameLayout>

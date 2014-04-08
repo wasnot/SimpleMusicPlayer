@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@color/player_list_header_bg"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/CategoryAlbumArt"
+        android:layout_width="@dimen/silkhat_list_header_album_size"
+        android:layout_height="@dimen/silkhat_list_header_album_size"
+        android:layout_margin="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/silkhat_list_text_left_padding"
+        android:paddingRight="16dp" >
+
+        <TextView
+            android:id="@+id/CategoryTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:textColor="@color/player_list_header_text"
+            android:textSize="19dp" >
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/CategorySubtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="marquee"
+                android:singleLine="true"
+                android:textColor="@color/player_list_header_text"
+                android:textSize="16dp" />
+<!-- 
+            <ImageButton
+                android:id="@+id/shuffleStartButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="@dimen/abs__action_bar_subtitle_text_size"
+                android:layout_weight="2"
+                android:adjustViewBounds="true"
+                android:minWidth="50dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/shuffle_off" />
+ -->
+
+            <ImageView
+                android:id="@+id/shuffleStartButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@drawable/clear_button_bg"
+                android:maxWidth="@dimen/player__play_subtitle_text_size"
+                android:minWidth="50dp"
+                android:padding="15dp"
+                android:src="@drawable/list_shuffle" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <color name="player_white">#FFFFFF</color>
+    <color name="player_highlight_blue">#609FBF</color>
+
+    <!-- list view -->
+    <color name="player_list_playing_status_bar">#65a0bf</color>
+    <color name="player_list_title_black">#262626</color>
+    <!-- <color name="player_list_subtitle_gray">#BFBFBF</color> -->
+    <color name="player_list_subtitle_gray">#808080</color>
+    <!-- <color name="player_list_bg_gray">#808080</color> -->
+    <!-- <color name="player_list_divider">#262626</color> -->
+    <color name="player_list_bg_gray">#D9D9D9</color>
+    <color name="player_list_divider">#D9D9D9</color>
+    <!-- <color name="player_list_pagetitlestrip_bg">#262626</color> -->
+    <color name="player_list_shadow_clear">#00000000</color>
+    <color name="player_list_shadow_black">#FF000000</color>
+    <color name="player_list_header_bg">#D9D9D9</color>
+    <color name="player_list_header_text">#262626</color>
+    <color name="player_grid_bg_gray">#262626</color>
+    <color name="player_grid_header_bg">#262626</color>
+
+    <!-- main plarer background gradietion color -->
+    <color name="player_bg_gray">#404040</color>
+    <color name="player_bg_black">#000000</color>
+
+    <!-- main plarer background gradietion color -->
+    <color name="player_main_bg_gray">#404040</color>
+    <color name="player_main_bg_black">#D0D0D0</color>
+
+    <!-- list item bg color -->
+    <!-- <color name="player_list_item_odd">#737373</color> -->
+    <!-- <color name="player_list_item_even">#595959</color> -->
+    <!-- <color name="player_list_item_even">#737373</color> -->
+    <color name="player_list_item_odd">#FFFFFF</color>
+    <color name="player_list_item_even">#FFFFFF</color>
+    
+    <!-- action bar --> 
+    <color name="player_actionbar_bg">#262626</color>
+    <!-- <color name="player_actionbar_bg">#000000</color> -->
+    <color name="player_actionbar_title">#D9D9D9</color>
+    
+    <!-- pager view -->
+    <!--  <color name="player_list_pager_bg">#538AA6</color> -->
+    <color name="player_list_pager_bg">#D9D9D9</color>
+    <color name="player_list_pager_title_text">#404040</color>
+    <!-- <color name="player_list_bg_dark_gray">#262626</color> -->
+    <color name="player_list_bg_dark_gray">#D9D9D9</color>
+    <!-- <color name="player_list_pager_shadow_clear">#00538AA6</color>
+    <color name="player_list_pager_shadow_black">#FF538AA6</color> -->
+    <color name="player_list_pager_shadow_clear">#00D9D9D9</color>
+    <color name="player_list_pager_shadow_black">#FFD9D9D9</color>
+    
+    <!-- navication sidebar -->
+    <color name="player_menu_bg_gray">#262626</color>
+    <!-- <color name="player_navigation_sidebar_bg">#595959</color> -->
+    <color name="player_navigation_sidebar_bg">#262626</color>
+    <!-- <color name="player_navigation_sidebar_divider">#787878</color> -->
+    <color name="player_navigation_sidebar_divider">#585858</color>
+
+    <!-- home fragment  -->
+    <color name="silkhat_home_bg">#FFFFFF</color>
+    <!-- <color name="silkhat_home_header_bg">#AE8BE0</color> -->
+    <color name="silkhat_home_header_bg">#D9D9D9</color>
+    <color name="silkhat_home_header_text">#262626</color>
+    <color name="silkhat_home_header_url_text">@color/silkhat_home_note</color>
+    <color name="silkhat_home_photo">#E6336A</color>
+    <color name="silkhat_home_music">#ED731A</color>
+    <color name="silkhat_home_file">#8DC21F</color>
+    <color name="silkhat_home_note">#009FE8</color>
+    <!-- <color name="silkhat_home_photo">#EF2D68</color>
+    <color name="silkhat_home_music">#F47030</color>
+    <color name="silkhat_home_file">#85C246</color>
+    <color name="silkhat_home_note">#00A1E2</color> -->
+    <color name="silkhat_inst_button_bg">#CECECE</color>
+    <color name="silkhat_inst_button_bg_pressed">#ffa600</color>
+    <color name="silkhat_inst_button_text">#262626</color>
+    
+    <!-- note color -->
+    <color name="note_color_white">#FFFFFF</color>
+    <color name="note_color_green">#80FFC0</color>
+    <color name="note_color_green_vivid">#69FFC6</color>
+    <color name="note_color_blue">#58C8FF</color>
+    <color name="note_color_blue_vivid">#48C9FA</color>
+    <color name="note_color_purple">#C380FF</color>
+    <color name="note_color_purple_vivid">#C980F7</color>
+    <color name="note_color_red">#FF80A1</color>
+    <color name="note_color_red_vivid">#FF7E9F</color>
+    <color name="note_color_yellow">#FFF780</color>
+    <color name="note_color_yellow_vivid">#FEF691</color>
+    
+</resources>

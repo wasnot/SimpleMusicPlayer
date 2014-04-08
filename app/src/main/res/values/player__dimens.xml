@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/dimens.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+
+    <!-- Player Play Activity Layout dimensions -->
+    <!-- text dimensions -->
+    <dimen name="player__play_title_text_size">19dp</dimen>
+    <dimen name="player__play_subtitle_text_size">16dp</dimen>
+    <dimen name="player__play_title_top_margin">18dp</dimen>
+    <dimen name="player__play_artist_top_margin">8dp</dimen>
+    <dimen name="player__play_album_top_margin">6dp</dimen>
+    <dimen name="player__play_title_text_side_padding">16dp</dimen>
+    <!-- upper subbutton dimensions -->
+    <dimen name="player__play_subbutton_side_margin">20dp</dimen>
+    <dimen name="player__play_subbutton_max_height">30dp</dimen>
+    <!-- bottom seekbar dimensions -->
+    <dimen name="player__play_seek_bar_side_margin">40dp</dimen>
+    <dimen name="player__play_seek_bar_bottom_padding">30dp</dimen>
+    <dimen name="player__play_seek_bar_top_padding">14dp</dimen>
+    <!-- mainbutton dimensions -->
+    <dimen name="player__play_mainbutton_side_margin">10dp</dimen>
+    <dimen name="player__play_mainsubbutton_max_height">48dp</dimen>
+    <dimen name="player__play_playbutton_max_height">62dp</dimen>
+    <!-- android system bar dimensions -->
+    <dimen name="player__system_bar_height">25dp</dimen>
+    <!-- mini player -->
+    <dimen name="player__miniplayer_height">66dp</dimen>
+
+    <!-- silkhat list dimensions -->
+    <dimen name="silkhat_list_album_size">50dp</dimen>
+    <dimen name="silkhat_list_header_album_size">100dp</dimen>
+    <dimen name="silkhat_list_text_left_padding">8dp</dimen>
+    <dimen name="silkhat_list_title_text_size">18dp</dimen>
+    <dimen name="silkhat_list_subtitle_text_size">14dp</dimen>
+    <dimen name="silkhat_list_count_text_rl_padding">8dp</dimen>
+    <dimen name="silkhat_action_bar_subtitle_bottom_margin">5dip</dimen>
+    <dimen name="silkhat_list_playing_status_bar_height">36dp</dimen>
+
+    <!-- silkhat list frip fragments dimensions -->
+    <dimen name="silkhat_flip_shadow_height">26dp</dimen>
+    <dimen name="silkhat_view_pager_side_padding">2dp</dimen>
+
+    <!-- silkhat list frip fragments dimensions -->
+    <dimen name="silkhat_flip_menu_shadow">16dp</dimen>
+    <dimen name="silkhat_flip_menu_offset">150dp</dimen>
+    
+    <!-- photo list dimensions -->
+    <dimen name="silkhat_photo_grid_space">0dp</dimen>
+    <dimen name="silkhat_photo_grid_padding">1.5dp</dimen>
+    
+    <!-- dashboard dimensions -->
+    <dimen name="silkhat_dashboard_text_size">18dp</dimen>
+    <dimen name="silkhat_dashboard_content_button_padding">18dp</dimen>
+    <dimen name="silkhat_dashboard_content_button_text_topmargin">8dp</dimen>
+    <dimen name="silkhat_dashboard_content_button_text_bottommargin">14dp</dimen>
+    <dimen name="silkhat_dashboard_content_button_image_topmargin">10dp</dimen>
+    <dimen name="silkhat_home_title_text_size">16dp</dimen>
+    <dimen name="silkhat_home_subtitle_text_size">12dp</dimen>
+
+</resources>

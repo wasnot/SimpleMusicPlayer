@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="player_cloud_notify_title">one Cloud Playing</string>
+    <string name="player_cloud_notify_ticker">Sended playing info in web</string>
+    <string name="player_local_notify_ticker">one Music</string>
+    <string name="player_list_shuffle">Shuffle</string>
+    <string name="player_list_shuffle_count">Shuffle (%d songs)</string>
+    
+    <string name="player_service_toast_error_no_music">No available music to play.</string>
+    <string name="player_service_toast_error_player_error">Media player error! Resetting.</string>
+    
+</resources>

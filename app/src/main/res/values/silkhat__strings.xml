@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- player -->
+    <string name="player_animation_duration">100</string>
+    
+    <!-- notification id -->
+    <string name="thumbnail_service_id">id</string>
+    <string name="thumbnail_service_title"></string>
+    <string name="thumbnail_service_ticker"></string>
+    <string name="musicsample_service_id">id</string>
+    <string name="cachepost_service_id">id</string>
+    <string name="post_finish_notification_id">id</string>
+    <string name="cloud_playing_notification_id">id</string>
+    
+    <!-- home fragment -->
+    <string name="home_description">Access and manage the contents inside your phone from anywhere!</string>
+    <string name="home_url">https://one.freebit.jp/</string>
+    <string name="home_send_label_access_from_pc">Access from the web</string>
+    <string name="home_send_label_host_name">Send URL (%1$s)</string>
+    <string name="home_manual_start">Start</string>
+    <string name="home_manual_stop">Stop</string>
+    <string name="home_sendurl">Send URL</string>
+    <string name="home_photo">Photo</string>
+    <string name="home_music">Music</string>
+    <string name="home_file">File</string>
+    <string name="home_note">Note</string>
+    <string name="home_send_mail_title">one\'s login URL</string>
+    <string name="home_send_mail_message">@string/home_url</string>
+    <string name="home_toast_copy_clipboard">Copied to clipboard</string>
+    <string name="home_alert_enable_silkhat_message">By using this app, you\'ll be able to access the contents of this smartphone from other computers.\nWould you like?</string>
+    <string name="home_make_shortcut_title">Create shortcut</string>
+    <string name="home_make_shortcut_message">Do you create shortcut to %s</string>
+    <string name="home_make_shortcut_positive_button">Create</string>
+    
+    <!-- Account fragment -->
+    <string name="account_lighttpd_stop">Lighttpd Stop</string>
+    <string name="account_send_cache">Send Cache</string>
+    
+    <!-- music edit dialog -->
+    <string name="music_edit_dialog_title">Title</string>
+    <string name="music_edit_dialog_artist">Artist</string>
+    <string name="music_edit_dialog_album">Album</string>
+    <string name="music_edit_dialog_track">Track</string>
+    
+    <!-- note preview fragment -->
+    <string name="note_preview_hint_title">Title</string>
+    <string name="note_preview_hint_memo">Memo</string>
+    <string name="note_preview_toast_title_limit">Please enter 250 characters or less for the Note\'s Title</string>
+    <string name="note_preview_toast_body_limit">Please enter 33,000 characters or less for the Note\'s Body</string>
+    
+    <!-- default list fragment -->
+    <string name="list_fragment_empty_text">No Data</string>
+    
+    <!-- menu list fragment -->
+    <string name="menu_home">Home</string>
+    <string name="menu_photo">Photo</string>
+    <string name="menu_music">Music</string>
+    <string name="menu_file">File</string>
+    <string name="menu_note">Note</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_account">Account</string>
+    <string name="menu_feedback">Feedback</string>
+    <string name="menu_dev">Dev</string>
+    <string name="actionbar_title_home">one</string>
+    <string name="actionbar_title_setting">Settings</string>
+    <string name="actionbar_title_dev">Develop</string>
+    
+    <!-- photo fragment -->
+    <string name="photo_page_title_album">Album</string>
+    <string name="photo_page_title_photos">Photos</string>
+    <!-- music fragment -->
+    <string name="music_page_title_playlist">Playlist</string>
+    <string name="music_page_title_album">Album</string>
+    <string name="music_page_title_artist">Artist</string>
+    <string name="music_page_title_songs">Songs</string>
+    <string name="music_page_title_genre">Genre</string>
+    <!-- file fragment -->
+    <string name="file_page_title_folder">Folder</string>
+    <string name="file_page_title_files">Files</string>
+    <!-- note fragment -->
+    <string name="note_page_title_notebook">Notebook</string>
+    <string name="note_page_title_notes">Notes</string>
+    <string name="note_page_cannot_delete_default_notebook">Cannot delete default Notebook.</string>
+    
+    <!-- photo preview activity -->
+    <string name="photo_preview_error_low_memory">Cannot display becaouse of low memory.</string>
+    
+    <!-- note preview fragment -->
+    <string name="note_preview_toast_note_added">Note added</string>
+    <string name="note_preview_toast_note_add_error">Note add error</string>
+    <string name="note_preview_toast_note_updated">Note updated</string>
+    <string name="note_preview_toast_note_update_error">Note update error</string>
+    <string name="note_preview_dialog_select_title">Please select</string>
+    
+    <!-- music list fragment test text -->
+    <string name="music_list_dialog_make_sample_title">Do you make mp3 sample?</string>
+    <string name="music_list_dialog_make_sample_message">Target playlist:%s</string>
+    <string name="music_list_progress_make_sample_title">Making mp3 sample</string>
+    <string name="music_list_dialog_category_meta_edit_title">Change name %s</string>
+    <string name="music_list_dialog_song_meta_edit_title">Change name etc. of song</string>
+    <string name="music_list_toast_meta_no_edited">Didn\'t edited.</string>
+    <string name="music_list_toast_meta_edit_failed">Failed edit.</string>
+    <string name="music_list_toast_meta_edited">Edited success.</string>
+    <string name="music_sample_dialog_positive_button">Make mp3 sample</string>
+    
+    <!-- General action -->
+    <string name="action_delete_dialog_title">Delete</string>
+    <string name="action_delete_dialog_message">Do you delete %s ?</string>
+    <string name="action_delete_dialog_positive_button">Delete</string>
+    
+    <!-- General alert -->
+    <string name="network_status">Network Status</string>
+    <string name="network_status_error">Cannot login! please check network status.</string>
+    <string name="network_status_error_toast">Network unreachable!!</string>
+    <string name="sdcard_error">Cannot found sdcard!</string>
+    <string name="app_not_found_error">App not found!!</string>
+    
+    <!-- Lighttpd Service -->
+    <string name="local_service">one</string>
+    <string name="local_service_started">one started</string>
+    <string name="local_service_id">_id</string>
+    <!-- <string name="local_service_stopped">one stop</string> -->
+    <!-- <string name="local_service_label">one started</string> -->
+    <string name="service_wakeup_message">one wakeup</string>
+    <string name="service_wait_message">one waiting</string>
+    <string name="service_start_message">one starting</string>
+    <string name="service_sleep_message">one sleeping</string>
+    <string name="service_stop_message">one stoped</string>
+    <string name="notify_service_wait_message">one waiting</string>
+    
+    <!-- lighttpdconf -->
+    <string name="deletelabel">Delete File</string>
+    <string name="reloadlabel">Reload</string>
+    <string name="uploadlabel">Upload</string>
+    <string name="deletemess">Are you sure to delete this file?</string>
+    <string name="uploadmess">Uploading</string>
+    
+    <!-- preset file name -->
+    <string name="preset_file_name_excel">excel.xlsx</string>
+    <string name="preset_file_name_powerpoint">powerpoint.ppt</string>
+    <string name="preset_file_name_word">word.docx</string>
+    <string name="preset_file_name_pdf">document.pdf</string>
+    
+    <!-- send cache text -->
+    <string name="send_cache_notification_start">Sending index to server</string>
+    <string name="send_cache_notification_some_send">Sending %s</string>
+    <string name="send_cache_notification_some_getting">Getting %s</string>
+    <string name="send_cache_notification_thumb_make">Making thumbnails</string>
+    <string name="send_cache_notification_thumb_get">Getting thumbnails</string>
+    <string name="send_cache_notification_thumb_send">Sending thumbnails</string>
+    <string name="send_cache_notification_photos_get">Getting photos list</string>
+    <string name="send_cache_notification_musics_get">Getting music list</string>
+    <string name="send_cache_notification_files_get">Getting files list</string>
+    <string name="send_cache_notification_notes_get">Getting notebooks list</string>
+    <string name="send_cache_notification_network_error">Network error</string>
+    <string name="send_cache_notification_send_failed">Failed sending</string>
+    <string name="send_cache_notification_send_completed">Sending completed</string>
+    <string name="send_cache_title_photos">photos list</string>
+    <string name="send_cache_title_photoalbum">photos albums</string>
+    <string name="send_cache_title_songs">music list</string>
+    <string name="send_cache_title_albums">music albums</string>
+    <string name="send_cache_title_artists">music artists</string>
+    <string name="send_cache_title_genres">music genres</string>
+    <string name="send_cache_title_genres_songs">songs in genres</string>
+    <string name="send_cache_title_playlists">music playlists</string>
+    <string name="send_cache_title_playlists_songs">songs in playlists</string>
+    <string name="send_cache_title_files">files list</string>
+    <string name="send_cache_title_folders">folders</string>
+    <string name="send_cache_title_notes">notes list</string>
+    <string name="send_cache_title_notebooks">notebooks list</string>
+    <string name="send_cache_intent_message_send">Sending</string>
+    <string name="send_cache_intent_message_getting">Getting</string>
+    
+</resources>
